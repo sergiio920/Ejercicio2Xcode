@@ -16,6 +16,7 @@
 		DE2F54322AEA49720057AF22 /* Ejercicio2XcodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2F54312AEA49720057AF22 /* Ejercicio2XcodeTests.swift */; };
 		DE2F543D2AEA49720057AF22 /* Ejercicio2XcodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2F543C2AEA49720057AF22 /* Ejercicio2XcodeUITests.swift */; };
 		DE2F544F2AEA4A380057AF22 /* Examen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2F544E2AEA4A380057AF22 /* Examen.swift */; };
+		DE2F54572AEA5D140057AF22 /* VerExamenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2F54562AEA5D140057AF22 /* VerExamenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		DE2F543C2AEA49720057AF22 /* Ejercicio2XcodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ejercicio2XcodeUITests.swift; sourceTree = "<group>"; };
 		DE2F543E2AEA49720057AF22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE2F544E2AEA4A380057AF22 /* Examen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Examen.swift; sourceTree = "<group>"; };
+		DE2F54562AEA5D140057AF22 /* VerExamenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerExamenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				DE2F54232AEA49720057AF22 /* Assets.xcassets */,
 				DE2F54252AEA49720057AF22 /* LaunchScreen.storyboard */,
 				DE2F54282AEA49720057AF22 /* Info.plist */,
+				DE2F54562AEA5D140057AF22 /* VerExamenViewController.swift */,
 			);
 			path = Ejercicio2Xcode;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 			files = (
 				DE2F541F2AEA49710057AF22 /* ViewController.swift in Sources */,
 				DE2F544F2AEA4A380057AF22 /* Examen.swift in Sources */,
+				DE2F54572AEA5D140057AF22 /* VerExamenViewController.swift in Sources */,
 				DE2F541B2AEA49710057AF22 /* AppDelegate.swift in Sources */,
 				DE2F541D2AEA49710057AF22 /* SceneDelegate.swift in Sources */,
 			);

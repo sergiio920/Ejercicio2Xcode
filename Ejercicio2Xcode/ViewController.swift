@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     @IBOutlet var txtPosicionLista: UITextField!
     @IBOutlet var lbMostrarInformacion: UILabel!
     
-    //VARIABLES PARA LA LÓGICA
+    //VARIABLES PARA LA LÓGICA                                                                            
     var listaExamenes:[Examen]!
     
     override func viewDidLoad() {
@@ -45,8 +45,7 @@ class ViewController: UIViewController {
         }
     }
     
- 
-    @IBAction func btnVerExamen(_ sender: Any) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let indice = txtPosicionLista.text!
         
         if indice.isEmpty {
@@ -55,7 +54,10 @@ class ViewController: UIViewController {
             if Int(indice)! < 1 || Int(indice)! > listaExamenes.count {
                 alertError(titulo: "ERROR", mensaje: "Posición Incorrecta")
             }else{
-                lbMostrarInformacion.text = listaExamenes[Int(indice)! - 1].toString()
+                if segue.identifier == "VER"{
+                    let destino = segue.destination as! VerExamenViewController
+                    destino.examen = listaExamenes[Int(indice)!-1]
+                }
             }
         }
     }
