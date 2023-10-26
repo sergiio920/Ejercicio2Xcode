@@ -15,6 +15,7 @@
 		DE2F54272AEA49720057AF22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2F54252AEA49720057AF22 /* LaunchScreen.storyboard */; };
 		DE2F54322AEA49720057AF22 /* Ejercicio2XcodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2F54312AEA49720057AF22 /* Ejercicio2XcodeTests.swift */; };
 		DE2F543D2AEA49720057AF22 /* Ejercicio2XcodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2F543C2AEA49720057AF22 /* Ejercicio2XcodeUITests.swift */; };
+		DE2F544F2AEA4A380057AF22 /* Examen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2F544E2AEA4A380057AF22 /* Examen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		DE2F54382AEA49720057AF22 /* Ejercicio2XcodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ejercicio2XcodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE2F543C2AEA49720057AF22 /* Ejercicio2XcodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ejercicio2XcodeUITests.swift; sourceTree = "<group>"; };
 		DE2F543E2AEA49720057AF22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE2F544E2AEA4A380057AF22 /* Examen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Examen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		DE2F54192AEA49710057AF22 /* Ejercicio2Xcode */ = {
 			isa = PBXGroup;
 			children = (
+				DE2F544D2AEA4A170057AF22 /* modelos */,
 				DE2F541A2AEA49710057AF22 /* AppDelegate.swift */,
 				DE2F541C2AEA49710057AF22 /* SceneDelegate.swift */,
 				DE2F541E2AEA49710057AF22 /* ViewController.swift */,
@@ -126,6 +129,14 @@
 				DE2F543E2AEA49720057AF22 /* Info.plist */,
 			);
 			path = Ejercicio2XcodeUITests;
+			sourceTree = "<group>";
+		};
+		DE2F544D2AEA4A170057AF22 /* modelos */ = {
+			isa = PBXGroup;
+			children = (
+				DE2F544E2AEA4A380057AF22 /* Examen.swift */,
+			);
+			path = modelos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE2F541F2AEA49710057AF22 /* ViewController.swift in Sources */,
+				DE2F544F2AEA4A380057AF22 /* Examen.swift in Sources */,
 				DE2F541B2AEA49710057AF22 /* AppDelegate.swift in Sources */,
 				DE2F541D2AEA49710057AF22 /* SceneDelegate.swift in Sources */,
 			);
